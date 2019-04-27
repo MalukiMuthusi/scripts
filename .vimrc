@@ -277,7 +277,7 @@ let g:autopep8_disable_show_diff=1
 
 " UltiSnips 
 " Trigger configuration. Do not use <tab> if you use YouCompleteMe 
-let g:UltiSnipsExpandTrigger="<right>"
+let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
