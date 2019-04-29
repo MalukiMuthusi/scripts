@@ -27,8 +27,8 @@ Plugin 'mattn/emmet-vim'
 "Plugin 'tpope/vim-fugitive'
 
 "filesystem
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'jistr/vim-nerdtree-tabs'
 "Plugin 'kien/ctrlp.vim'
 "
 "fold code
@@ -221,30 +221,30 @@ set nu
 
 " NERDTree setting
 " Auto open NERDTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
 
 " map CTR-n to open NERDTree
-map <C-n> :NERDTreeToggle<CR>
-let NERDTreeShowHidden=1
-let NERDTreeShowLineNumbers=0 
+"map <C-n> :NERDTreeToggle<CR>
+"let NERDTreeShowHidden=1
+"let NERDTreeShowLineNumbers=0 
 
 " nerd tree tabs
-let NERDTreeShowLineNumbers=0
-let g:nerdtree_tabs_no_startup_for_diff = 1
-let g:nerdtree_tabs_smart_startup_focus = 2
-let g:nerdtree_tabs_startup_cd = 1
-let g:nerdtree_tabs_focus_on_files = 0
-let g:nerdtree_tabs_synchronize_focus = 1 
-let g:nerdtree_tabs_synchronize_view = 1
-let g:nerdtree_tabs_autoclose = 0
-let g:nerdtree_tabs_meaningful_tab_names = 1
-let g:nerdtree_tabs_open_on_new_tab = 1
+"let NERDTreeShowLineNumbers=0
+"let g:nerdtree_tabs_no_startup_for_diff = 1
+"let g:nerdtree_tabs_smart_startup_focus = 0
+"let g:nerdtree_tabs_startup_cd = 0
+"let g:nerdtree_tabs_focus_on_files = 0
+"let g:nerdtree_tabs_synchronize_focus = 1 
+"let g:nerdtree_tabs_synchronize_view = 1
+"let g:nerdtree_tabs_autoclose = 1
+"let g:nerdtree_tabs_meaningful_tab_names = 1
+"let g:nerdtree_tabs_open_on_new_tab = 0
 
 " set show current cursor position
 set showcmd

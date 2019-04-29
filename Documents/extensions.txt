@@ -1,0 +1,19 @@
+1. AlternateTab by fmuellner
+2. Applications Menu by fmuellner
+3. Auto Move Windows by fmuellner
+4. Dash to Dock by michele_g
+5. Dash to Panel by jderose9
+6. Desktop Icons by rastersoft
+7. EasyScreenCast by tobias47n9e
+8. Launch new instance by fmuellner
+9. Native Window Placement by fmuellner
+10. Places Status Indicator by fmuellner
+11. Proxy Switcher by flannable
+12. Removable Drive Menu by fmuellner
+13. Screenshot Window Sizer by fmuellner
+14. User Themes by fmuellner
+15. Vitals by corecoding
+16. Window List by fmuellner
+17. windowNavigator by fmuellner
+18. Workspace Indicator by fmuellner
+19. Workspaces to Dock by passingthru67
